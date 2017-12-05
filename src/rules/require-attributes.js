@@ -1,7 +1,7 @@
 import { getProp, getPropValue, elementType } from 'jsx-ast-utils';
 import shouldCheckComponent from '../shouldCheckComponent';
 
-export default {
+module.exports = {
   create: (context) => ({
     JSXOpeningElement: (node) => {
       const nodeType = elementType(node);

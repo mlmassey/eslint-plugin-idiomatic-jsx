@@ -1,6 +1,6 @@
 import { elementType } from 'jsx-ast-utils';
 
-export default {
+module.exports = {
   create: (context) => ({
     JSXOpeningElement: (node) => {
       const components = context.options[0] || [];
